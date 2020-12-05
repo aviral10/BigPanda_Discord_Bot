@@ -1,0 +1,9 @@
+discord.py==1.5.1
+psutil
+requests
+psycopg2
+numpy
+googletrans
+urbandictionary
+pokedex.py
+python-dotenv
