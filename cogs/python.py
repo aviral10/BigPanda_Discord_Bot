@@ -121,7 +121,7 @@ class python(commands.Cog):
                         mess += line
             if len(mess) >=2000:
                 mess=mess[:2000]
-            if ("bot.py" in mess) or ("NzIyNjk5MzY0NjM" in mess):
+            if ("bot.py" in mess) or (os.getenv("BOT_TOKEN") in mess):
                 await ctx.send("Nice try!")
             else:
                 embed = discord.Embed(description=f"Your Output: ```py\n{mess}```")
